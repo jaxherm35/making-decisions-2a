@@ -100,9 +100,10 @@ let sumNum = myFavoriteNumbers.slice(4,5)
 //Code Here
 if(myFavoriteNumbers.length < 7){
   console.log('there are not enough elements in this array')
-}if(myFavoriteNumbers.lenght > 7){
-  console.log
+}if(myFavoriteNumbers.lenght >= 7){
+  let sumNum = myFavoriteNumbers[6]
 }
+  console.log(sumNum)
 
 ////////// PROBLEM 8 //////////
 
@@ -155,7 +156,22 @@ If the letter grade is not one of the above letters, console.log 'Not an eligibl
 */
 
 //Code Here
-
+// switch(letterGrade){
+//   case 'A':
+//     text = "student is doing excellently.";
+//     break;
+//   case 'B':
+//     text = "the student is doing well.";
+//     break;
+//   case 'C':
+//     text = "the student is doing alright."
+//     break;
+//   case 'D':
+//     text = "the student is not doing very well."
+//     break;
+//   case 'F':
+//     text = "the student is failing"
+// }
 
 
 ////////// PROBLEM 11 //////////
@@ -183,3 +199,9 @@ If the letter grade is not one of the above letters, console.log 'Not an eligibl
 */
 
 //Code Here
+
+// for(let i = 1; i < 100; i ++){
+//   if(i % 3 === 0 & i % 5 === 0){
+//     console.log("DevMountain")
+//   }else if(i % 3)
+// }
